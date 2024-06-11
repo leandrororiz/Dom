@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background: rgb(0, 217, 255);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        font-size: 150%;
+    }
+
+    h2 {
+        color: black;
+        margin-left: 10%;
+        margin-right: 50%;
+    }
+
+    p {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+</style>
+
+<body>
+    <h1>Explorando o Mundo do DOM</h1>
+    <h1>Domine a Manipulação Dinâmica de Documentos</h1>
+
+<div>Introdução</div>
+
+    <h2>DOM:</h2>
+    <p> O Modelo de Objeto de Documento (DOM) é a estrutura de programação fundamental que representa e interage com
+        elementosHTML, XML ou XHTML de uma página web.
+        Ele permite aos desenvolvedores acessar, modificar e atualizar dinamicamente o conteúdo, a estrutura e o estilo
+        de uma página, proporcionando uma experiência de usuário interativa e responsiva. </p>
+
+    <h2>Manipulação Dinâmica:</h2>
+    <p>Uma das principais vantagens do DOM é sua capacidade de manipulação dinâmica de elementos da página. Isso
+        significa que os desenvolvedores podem adicionar,
+        emover e modificar elementos e atributos HTML usando JavaScript. Essa funcionalidade é essencial para a criação
+        de interfaces de usuário dinâmicas e interativas em aplicações web modernas.
+    </p>
+
+    <h2>Acesso aos Elementos:</h2>
+    <p>O DOM fornece uma interface de programação consistente para acessar e manipular elementos individuais em uma
+        página web.
+        Os desenvolvedores podem selecionar elementos por meio de identificadores únicos (como IDs), classes, tags ou
+        hierarquia de elementos.
+        Isso permite que eles realizem uma ampla variedade de operações, desde a modificação de texto e estilos até a
+        manipulação de eventos de usuário.</p>
+
+    <h2>Eventos e Reatividade:</h2>
+    <p>Além de permitir a manipulação direta de elementos HTML, o DOM também facilita a vinculação de eventos de
+        usuário, como cliques e teclas pressionadas, a elementos específicos da página
+        Isso permite que os desenvolvedores criem interfaces reativas e responsivas, onde as ações do usuário
+        desencadeiam eventos que podem ser capturados e processados ​​para atualizar dinamicamente o conteúdo da página.
+        Essa interatividade é fundamental para a criação de experiências de usuário envolventes e modernas.
+    </p>
+
+    <div > Dominando as Técnicas para Transformar sua Página Web </div>
+    
+
+    <script>
+        var DOM = window.document.getElementsByTagName('h1')[0];
+        DOM.style.backgroundColor = "red"
+
+        var DOMINE = document.getElementsByTagName('h1')[1];
+        DOMINE.style.backgroundColor = "red"
+
+        var INTRODUCAO = window.document.getElementsByTagName('h2')[0];
+        INTRODUCAO.style.backgroundColor = "Yellow"
+
+        var MANIPULACAO = window.document.getElementsByTagName("h2")[1];
+        MANIPULACAO.style.backgroundColor = "Yellow"
+
+        var ACESSO = window.document.getElementsByTagName("h2")[2];
+        ACESSO.style.backgroundColor = "Yellow"
+
+        var EVENTOS = window.document.getElementsByTagName("h2")[3];
+        EVENTOS.style.backgroundColor = "Yellow"
+
+        var PRIMEIRA = window.document.getElementsByTagName("div")[0];
+        PRIMEIRA.style.color = "red"
+
+        var BOM = window.document.getElementsByTagName("div")[1];
+        BOM.style.color = "red"
+
+      
+       
+    </script>
+</body>
+
+</html>
